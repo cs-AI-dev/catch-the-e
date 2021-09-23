@@ -32,6 +32,9 @@ def kill():
   death = Tk()
   dLabel = Label(death, text="You lost!\nPoints: " + str(pts) + ".")
   dLabel.grid(row=1, column=1)
+  death.mainloop()
+  
+  pre.mainloop()
 
 def switch():
   pts += 1
